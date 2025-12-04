@@ -37,7 +37,7 @@ const myFun = async()=>
     console.log(sub);
     const marks = await getMarks(sub);
     console.log(marks);
-    console.log("Operation finished");
+    console.log("Operations finished successfully");
 }
 
 myFun();
